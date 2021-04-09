@@ -1,0 +1,35 @@
+{
+  "name": "simple-drawing-board",
+  "version": "2.1.1",
+  "description": "Just simple minimal canvas drawing lib.",
+  "main": "./dist/simple-drawing-board.js",
+  "scripts": {
+    "lint": "eslint ./src/**/*",
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leader22/simple-drawing-board.js.git"
+  },
+  "keywords": [
+    "canvas",
+    "drawing",
+    "drawing-board",
+    "vanilla"
+  ],
+  "author": "leader22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leader22/simple-drawing-board.js/issues"
+  },
+  "homepage": "https://github.com/leader22/simple-drawing-board.js",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.2",
+    "rollup": "^2.3.2",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
