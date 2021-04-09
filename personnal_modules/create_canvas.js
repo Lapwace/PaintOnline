@@ -8,7 +8,7 @@ const sdb = new SimpleDrawingBoard(document.getElementById('canvas'), {
 
 sdb.ev.on('drawBegin', () => {
     sdb.getImg('./image/img.png')
-    console.log("starte")
+    console.log("start")
 })
 
 sdb.ev.on('draw', () => {
